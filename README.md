@@ -32,7 +32,7 @@ The candidates were:
   
   Raymon Anthony Doane received 3.1% of the vote and 11,606 number of votes.
 
-![Candidate Picture Results}(candidate_results.png)
+![Candidate Picture Results](candidate_results.png)
 
 
   
@@ -51,6 +51,9 @@ The candidates were:
 #### The largest county was:
 
   Denver County, who had 82.8% of the vote and 306,055 number of votes. 
+
+![County Results](county_results.png)
+
   
 ## Election-Audit Summary
 With the analysis from this data, the Colorado Board of Elections can clearly see which candidates recieved a vote, how many votes and the percentage of the votes. The Board can also see which county is generating the majority of the votes, and the breakdown of each county that has votes cast.  The Board of Elections can use this script for any data set, in which they collect the county and candidadates name.  The modification will have to be done to the code, for the name of the csv file and possibly where the file is stored on the computer.  This code will work if new candidadtes names or counties are generated, or a larger sample is given.  The same thing is true for the counties.  
