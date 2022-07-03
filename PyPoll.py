@@ -9,7 +9,7 @@ import csv
 import os
 #Assign a varaible for the file to load and the path
 file_to_load=os.path.join("Resources","election_results.csv")
-#Assign a variable to save teh file to a path
+#Assign a variable to save the file to a path
 file_to_save=os.path.join("analysis","election_analysis.txt")
 #1. Initialize a total vote counter
 total_votes=0
@@ -61,7 +61,7 @@ with open(file_to_save,"w") as txt_file:
     for candidate_name in candidate_votes:
         #Retrieve vote count of a candidate
         votes=candidate_votes[candidate_name]
-        #Calculate teh percentage of votes
+        #Calculate the percentage of votes
         vote_percentage=float(votes)/float(total_votes)*100
         candidate_results=(f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
         #to do: print out each candidates name, vote count, and percentage of
@@ -86,7 +86,7 @@ with open(file_to_save,"w") as txt_file:
         f"Winning Percentage: {winning_percentage:.1f}%\n"
         f"___________________\n")
     print(winning_candidate_summary)
-    #Save teh winning candidates results to the text file
+    #Save the winning candidates results to the text file
     txt_file.write(winning_candidate_summary)
 #print(winning_candidate_summary)
 #print the candidate vote dictionary
