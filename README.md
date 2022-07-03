@@ -31,7 +31,10 @@ The candidates were:
   Diana DeGetter received 73.8% of the vote and 272,892 number of votes.
   
   Raymon Anthony Doane received 3.1% of the vote and 11,606 number of votes.
-  
+
+![Candidate Picture Results}(candidate_results.png)
+
+
   
 #### The winner of the election was:
 
